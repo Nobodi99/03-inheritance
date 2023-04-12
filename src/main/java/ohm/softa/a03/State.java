@@ -13,7 +13,7 @@ public abstract class State {
         this.duration = duration;
     }
 
-    State tick(Cat cat){
+    final State tick(Cat cat){
         // Increment time elapsed
         time++;
         
